@@ -1,0 +1,22 @@
+{
+    "kind": "Pod",
+    "apiVersion": "v1",
+    "metadata": {
+        "name": "bench",
+        "labels": {
+            "name": "cpu"
+        }
+    },
+    "spec": {
+        "containers": [
+            {
+                "name": "cpu",
+                "image": "resourcebench:v0.1",
+                "imagePullPolicy": "IfNotPresent",
+                "args": [
+                    "-apptype=cpu"
+                ]
+            }
+        ]
+    }
+}

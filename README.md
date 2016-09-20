@@ -1,0 +1,2 @@
+### CuteBenchMark
+CuteBenchMark is a benchmark client tool to help you to do different resource benchmark testing, like cpu-intensive benchmark, memory-intensive benchmanrk, io-intensive benchmark etc.
