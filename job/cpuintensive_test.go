@@ -6,6 +6,7 @@ import (
 
 func TestCpuBentch(t *testing.T) {
 	t.Log("start to test cpu intensive app")
-	interval := 500
-	CpuBenchmark(interval)
+	//2 core cpu rate=500 %cpu=20%
+	rate := 100
+	CpuBenchmark(rate)
 }
